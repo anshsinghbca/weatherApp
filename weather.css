@@ -135,29 +135,67 @@ body{
 }
 
 
-@media (min-width: 400px) {
+@media only screen and (max-width: 600px) {
     .container {
-        max-width: 350px;
-        padding: auto;
+        width: 90%;
+        padding: 20px;
+    }
+
+    #input {
+        width: 100%;
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    .search {
+        margin-left: 10px;
+        height: 45px;
+        width: 45px;
+    }
+
+    .imgBox {
+        height: 120px;
+        width: 120px;
+        margin: 30px auto 0;
     }
 
     #h1 {
-        font-size: 3rem;
+        font-size: 1.8rem;
+        margin: 20px 0 10px;
     }
 
     #city {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
 
-    #icon2, #icon3 {
-        width: 45px;
-        height: 45px;
+    .imgBox2,
+    .imgBox3 {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 20px auto;
+        width: 100%;
     }
 
-    #humi, #wind {
-        font-size: 1.1rem;
+    .imgBox2 img,
+    .imgBox3 img {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+
+    .imgBox2 p,
+    .imgBox3 p {
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    #blank {
+        display: none;
     }
 }
+
+
 
 
 
