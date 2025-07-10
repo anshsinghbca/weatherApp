@@ -135,5 +135,32 @@ body{
 }
 
 
+@media (min-width: 400px) {
+    .container {
+        max-width: 350px;
+        padding: auto;
+    }
+
+    #h1 {
+        font-size: 3rem;
+    }
+
+    #city {
+        font-size: 1.4rem;
+    }
+
+    #icon2, #icon3 {
+        width: 45px;
+        height: 45px;
+    }
+
+    #humi, #wind {
+        font-size: 1.1rem;
+    }
+}
+
+
+
+
 
 
